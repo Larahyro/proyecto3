@@ -103,4 +103,16 @@ En la primera version del proyecto trabajé en un archivo HTML y uno CSS separad
                     </div>
     </div>
 
-    <!-- ahora sólo me falta ajustar el diseño responsivo >
+    <!-- ahora sólo me falta ajustar el diseño responsivo-->
+
+    <!--separé los archivos en uno HTML y otro CSS, modifiqué la barra de navegacion dejando un estilo hamburguesa-->
+    
+    <nav class="navbar"> 
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+    
+     <!--y ajusté con media queries los ajustes al main y footer-->
